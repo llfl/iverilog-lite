@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-LABEL maintainer "quinn hugh"
+LABEL maintainer "kun(i@imux.top)"
 
 ENV REFRESHED_AT 2019-03-26 \
     DEBIAN_FRONTEND="noninteractive" \

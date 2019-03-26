@@ -1,6 +1,6 @@
 #!/bin/bash
 
 if [ $1 = "install-iverilog" ]; then
-    docker build -t iverilog:4 ./
+    docker build -t imux/iverilog ./
 fi
-docker run --rm -v `pwd`:/root/verilog iverilog:4 $1
+docker run --rm --name iverilog -v `pwd`:/root/verilog imux/iverilog $1
