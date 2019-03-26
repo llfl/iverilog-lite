@@ -19,3 +19,5 @@ docker run --rm --name iverilog -v `pwd`:/root/verilog imux/iverilog $1
 ```
 
 即可得到VCD波形文件。注：windows 下`pwd`换成绝对路径，“$1” 为指定编译输出文件，默认名字为output。
+
+或者直接运行./verilog.sh。
